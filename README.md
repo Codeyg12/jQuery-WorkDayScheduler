@@ -18,4 +18,5 @@ This project was a ton of fun to figure out. I didn’t have to google much here
 
 ## Links  
 
-Follow this link for the finished project  
+Follow this link for the finished project (https://codeyg12.github.io/jQuery-WorkDayScheduler/)
+![D1](https://user-images.githubusercontent.com/103782398/176347792-022bc1c8-3775-4b79-99ee-0a605b6664f7.png)
