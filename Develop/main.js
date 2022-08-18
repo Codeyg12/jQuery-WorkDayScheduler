@@ -53,9 +53,8 @@ $(document).ready(function () {
   console.log(currentTime);
   //appends the current time when loaded onto the page
   $("#currentDay").append(currentTime);
-
   //adds a row for each hour block in the timesOfWork
-  $(timesOfWork).each(function (index) {
+  $(timesOfWork).each(function () {
     let newRow = $("<div>");
     //loops through until it has all time blocks
     //adds the predetirmed row class to the new div to be added
@@ -64,7 +63,7 @@ $(document).ready(function () {
     $(".container").append(newRow);
   });
 
-  // //adds class for the columns
+  //adds class for the columns
   $("div .row").each(function (index) {
     let timeSlot;
     let labelEl = $("<div>");
@@ -100,7 +99,7 @@ $(document).ready(function () {
     let inputArea = $("<textarea>").text(timesOfWork[index].userInput);
     //adds class using bootstrap to style and
     inputArea.addClass("col-10 description").attr("id", numberedBlock);
-    saveBtn.addClass("col-2 float-right saveBtn").text("💾");
+    saveBtn.addClass("col-2 float-right btn-lg mt-3 saveBtn").text("💾");
     $(this).append(inputArea);
     $(this).append(saveBtn);
     index++;
@@ -117,6 +116,9 @@ $(document).ready(function () {
   let j = 9;
   while (j <= 17) {
     $(`#${j}`).val(localStorage.getItem(j));
+    console.log(`#${j}`)
+    console.log(`${j}`)
+    console.log( $(`#${j}`))
     j++;
   }
 });
