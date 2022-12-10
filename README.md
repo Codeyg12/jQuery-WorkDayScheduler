@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
-  # Workday Scheduler
-  
+  # Workday Scheduler   [<img align="right" src="https://img.shields.io/badge/license-MIT-00beef"></img>](LICENSE)
+
   ## Table of Contents
   [Description](#description)
   
@@ -16,8 +16,6 @@
   [Contribution](#contribution)
 
   [Testing](#test)
-  
-  [License](#license)
 
   ### Description
   
